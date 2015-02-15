@@ -2,10 +2,12 @@
 public class HelloWorld {
 
 	public static void main(String[] args) {
-		do {
+		boolean flag = true;
+		while(flag){
 			System.out.println("Yo!");
+			flag = false;
 		}
-		while(false);
+		
 	}
 
 }
